@@ -1,0 +1,28 @@
+{
+    "name" : "Crystal",
+    "Base" : 
+    {
+        "surfaceSize" : 100,
+        "surfaceGravity" : 9,
+        "hasMapMarker" : true,
+	    "hasAmbientLight" : true
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 1000,
+        "inclination" : 10,
+        "primaryBody" : "Red Geode",
+        "isMoon" : true,
+        "isTidallyLocked" : true,
+        "longitudeOfAscendingNode" : 0.1,
+        "eccentricity" : 0,
+        "argumentOfPeriapsis": 0
+    },
+    "HeightMap" :
+    {
+	    "heightMap" : "planets/Assets/CrystalHeight.jpg",
+	    "textureMap" : "planets/Assets/CrystalHeight.jpg",
+        "minHeight" : 90,
+        "maxHeight" : 110
+    }
+}

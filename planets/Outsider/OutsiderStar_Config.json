@@ -1,0 +1,47 @@
+    {
+    "name" : "The Outsider",
+    "Base" :
+    {
+    "surfaceSize" : 3250,
+	"hasMapMarker" : false,
+	"surfaceGravity" : 55,
+	"hasReferenceFrame" : false,
+	"gravityFallOff" : "inverseSquared"
+    },
+    "Star" :
+    {
+    "size" : 3250,
+    "tint" : 
+    {
+        "r" : 0,
+        "g" : 255,
+        "b" : 60,
+        "a" : 255
+    },
+    "solarFlareTint" : 
+    {
+        "r" : 0,
+        "g" : 255,
+        "b" : 60,
+        "a" : 255
+    }
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 450000,
+        "primaryBody" : "SUN",
+        "isMoon" : false,
+        "eccentricity" : 0,
+        "inclination" : 0,
+        "trueAnomaly" : 276,
+        "isStatic" : true,
+        "showOrbitLine" : false
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Default", "Name" : "O-U-T-S-I-D-E-R", "audioFilePath" : "planets/Assets/outsiderSignal.wav", "SourceRadius" : 3250, "identificationRadius" : 4000, "onlyAudibleToScope" : true }
+		]
+	}
+}

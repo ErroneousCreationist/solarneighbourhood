@@ -1,0 +1,30 @@
+{
+    "name" : "Rage",
+    "Base" : 
+    {
+        "surfaceSize" : 300,
+        "surfaceGravity" : 15,
+        "hasMapMarker" : true,
+	    "hasAmbientLight" : true,
+        "lavaSize" : 290
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 6500,
+        "inclination" : 1,
+        "primaryBody" : "Fury",
+        "isMoon" : false,
+        "isTidallyLocked" : true,
+        "longitudeOfAscendingNode" : 0.1,
+        "eccentricity" : 0,
+        "trueAnomaly" : 50,
+        "argumentOfPeriapsis": 0
+    },
+    "HeightMap" :
+    {
+	    "heightMap" : "planets/Assets/Rage-Height.jpg",
+	    "textureMap" : "planets/Assets/Rage-Height.jpg",
+        "minHeight" : 280,
+        "maxHeight" : 307
+    }
+}

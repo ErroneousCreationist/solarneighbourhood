@@ -1,0 +1,50 @@
+{
+    "name" : "Betwixt",
+    "Base" : 
+    {
+        "surfaceSize" : 256,
+        "surfaceGravity" : 12,
+        "hasMapMarker" : true,
+	    "hasAmbientLight" : true,
+        "waterSize" : 250
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 20000,
+        "inclination" : 0,
+        "primaryBody" : "Prima",
+        "isMoon" : false,
+        "isTidallyLocked" : false,
+        "eccentricity" : 0,
+        "argumentOfPeriapsis": 0
+    },
+    "Atmosphere" :
+    {
+        "size" : 301,
+        "fogSize" : 300,
+        "fogTint" :
+        {
+            "r" : 60,
+            "g" : 145,
+            "b" : 121,
+            "a" : 255
+        },
+        "hasRain" : true,
+        "hasOxygen" : true,
+        "fogDensity" : 0.5
+        
+    },
+    "HeightMap" :
+    {
+	    "heightMap" : "planets/Assets/BETWIXT-HEIGHT.jpg",
+	    "textureMap" : "planets/Assets/BETWIXT-COL.jpg",
+        "minHeight" : 242,
+        "maxHeight" : 259
+    },
+    "Props" :
+    {
+        "scatter" : [
+            {"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Props_DreamZone_1/OtherComponentsGroup/Trees_Z1/DreamHouseIsland/Tree_DW_M_Var", "count" : 75}
+        ]
+    }
+}

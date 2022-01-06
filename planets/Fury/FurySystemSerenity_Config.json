@@ -1,0 +1,51 @@
+{
+    "name" : "Serenity",
+    "Base" : 
+    {
+        "surfaceSize" : 345,
+        "surfaceGravity" : 15,
+        "hasMapMarker" : true,
+	    "hasAmbientLight" : true,
+        "waterSize" : 335
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 10000,
+        "inclination" : 0,
+        "primaryBody" : "Fury",
+        "isMoon" : false,
+        "isTidallyLocked" : true,
+        "longitudeOfAscendingNode" : 0.1,
+        "eccentricity" : 0,
+        "trueAnomaly" : 180,
+        "argumentOfPeriapsis": 0
+    },
+    "HeightMap" :
+    {
+	    "heightMap" : "planets/Assets/Serenity-Height.png",
+	    "textureMap" : "planets/Assets/Serenity-Col.png",
+        "minHeight" : 331,
+        "maxHeight" : 350
+    },
+    "Atmosphere" :
+    {
+        "size" :  410,
+        "hasRain" : true,
+        "fogSize" : 409,
+        "fogTint" :
+        {
+            "r" : 0,
+            "g" : 209,
+            "b" : 139,
+            "a" : 255
+        },
+        "fogDensity" : 0.8
+    },
+    "Props" :
+    {
+        "scatter" : 
+        [
+            {"path" : "GabbroIsland_Body/Sector_GabbroIsland/Props_GabbroIsland/BatchedGroup/BatchedMeshRenderers_0", "count" : 55}
+        ]
+    }
+}

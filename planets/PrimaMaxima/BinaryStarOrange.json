@@ -1,0 +1,38 @@
+{
+    "name" : "Maxima",
+    "Base" :
+    {
+    "surfaceSize" : 2500,
+	"hasMapMarker" : true,
+	"surfaceGravity" : 45,
+	"hasReferenceFrame" : true,
+	"gravityFallOff" : "inverseSquared"
+    },
+    "Star" :
+    {
+    "size" : 2500,
+    "tint" : 
+    {
+        "r" : 255,
+        "g" : 204,
+        "b" : 0,
+        "a" : 255
+    },
+    "solarFlareTint" : 
+    {
+        "r" : 255,
+        "g" : 204,
+        "b" : 0,
+        "a" : 255
+    }
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 7000,
+        "primaryBody" : "Prima Maxima",
+        "trueAnomaly" : 180,
+        "isMoon" : false,
+        "eccentricity" : 0,
+        "inclination" : 0
+    }
+}

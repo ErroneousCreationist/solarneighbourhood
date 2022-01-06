@@ -1,0 +1,60 @@
+{
+    "name" : "The City",
+    "Base" : 
+    {
+        "surfaceSize" : 450,
+        "surfaceGravity" : 25,
+        "hasMapMarker" : false,
+        "hasReferenceFrame" : false,
+	    "hasAmbientLight" : true
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 9000,
+        "inclination" : 1,
+        "primaryBody" : "The Outsider",
+        "isMoon" : false,
+        "isTidallyLocked" : false,
+        "longitudeOfAscendingNode" : 0.1,
+        "eccentricity" : 0,
+        "argumentOfPeriapsis": 50,
+        "showOrbitLine" : false
+    },
+    "Atmosphere" :
+    {
+        "size" : 550,
+        "cloudSize" : 550,
+        "cloud" : "planets/Assets/The-City.png",
+        "cloudCap" : "planets/Assets/cap1.png",
+        "cloudTint" : 
+        {
+            "r" : 0,
+            "g" : 255,
+            "b" : 242,
+            "a" : 255
+        },
+        "fogSize" : 549,
+        "fogTint" : 
+        {
+            "r" : 163,
+            "g" : 121,
+            "b" : 128,
+            "a" : 255
+        },
+        "fogDensity" : 0.1
+    },
+    "HeightMap" :
+    {
+	    "heightMap" : "planets/Assets/TheCity-Height.png",
+	    "textureMap" : "planets/Assets/TheCity-Col.png",
+        "minHeight" : 440,
+        "maxHeight" : 470
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Default", "Name" : "C-I-T-Y", "audioFilePath" : "planets/Assets/outsiderSignal.wav", "SourceRadius" : 450, "identificationRadius" : 500, "onlyAudibleToScope" : true }
+		]
+	}
+}

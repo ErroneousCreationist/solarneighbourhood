@@ -1,0 +1,30 @@
+{
+    "name" : "Catastrophe",
+    "Base" : 
+    {
+        "surfaceSize" : 110,
+        "surfaceGravity" : 13,
+        "hasMapMarker" : true,
+	    "hasAmbientLight" : true,
+        "lavaSize" : 101
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 1500,
+        "inclination" : 13,
+        "primaryBody" : "Calamity",
+        "isMoon" : false,
+        "isTidallyLocked" : true,
+        "longitudeOfAscendingNode" : 0.1,
+        "eccentricity" : 0,
+        "trueAnomaly" : 50,
+        "argumentOfPeriapsis": 0
+    },
+    "HeightMap" :
+    {
+	    "heightMap" : "planets/Assets/Catastrophe.jpg",
+	    "textureMap" : "planets/Assets/Catastrophe.jpg",
+        "minHeight" : 100,
+        "maxHeight" : 111
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "name" : "Umbra",
+    "Base" : 
+    {
+        "surfaceSize" : 270,
+        "surfaceGravity" : 15,
+        "hasMapMarker" : true,
+	    "hasAmbientLight" : false
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 11000,
+        "inclination" : 0,
+        "primaryBody" : "Orange Arbiter",
+        "isMoon" : false,
+        "isTidallyLocked" : false,
+        "longitudeOfAscendingNode" : 0.5,
+        "eccentricity" : 0.1,
+        "argumentOfPeriapsis": 0
+    },
+    "Atmosphere" :
+    {
+        "size" : 300,
+        "fogTint" :
+        {
+            "r" : 191,
+            "g" : 214,
+            "b" : 217,
+            "a" : 200
+        },
+        "fogSize" : 300,
+        "fogDensity" : 0.2
+        
+    },
+    "HeightMap" :
+    {
+	    "heightMap" : "planets/Assets/UMBRA-COL.png",
+	    "textureMap" : "planets/Assets/UMBRA-COL.png",
+        "minHeight" : 260,
+        "maxHeight" : 273
+    }
+}

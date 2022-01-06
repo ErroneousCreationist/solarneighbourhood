@@ -1,0 +1,24 @@
+{
+    "name" : "Prima Maxima",
+    "Base" :
+    {
+    "surfaceSize" : 4000,
+	"hasMapMarker" : true,
+	"hasReferenceFrame" : true,
+	"gravityFallOff" : "inverseSquared"
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 175000,
+        "primaryBody" : "SUN",
+        "isMoon" : false,
+        "eccentricity" : 0,
+        "inclination" : 0,
+        "trueAnomaly" : 95
+    },
+    "FocalPoint" :
+    {
+        "Primary" : "Prima",
+        "Secondary" : "Maxima"
+    }
+}

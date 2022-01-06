@@ -1,0 +1,46 @@
+{
+    "name" : "Fury",
+    "Base" :
+    {
+    "surfaceSize" : 4500,
+	"hasMapMarker" : true,
+	"surfaceGravity" : 70,
+	"hasReferenceFrame" : true,
+	"gravityFallOff" : "inverseSquared"
+    },
+    "Star" :
+    {
+    "size" : 4500,
+    "tint" : 
+    {
+        "r" : 209,
+        "g" : 0,
+        "b" : 0,
+        "a" : 255
+    },
+    "solarFlareTint" : 
+    {
+        "r" : 209,
+        "g" : 0,
+        "b" : 0,
+        "a" : 255
+    }
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 150000,
+        "primaryBody" : "SUN",
+        "isMoon" : false,
+        "eccentricity" : 0,
+        "inclination" : 0,
+        "trueAnomaly" : 181
+    },
+    "AsteroidBelt" :
+    {
+        "innerRadius" : 5500,
+        "outerRadius" : 6250,
+        "inclination" : 0,
+        "randomSeed" : 6942
+    }
+
+}

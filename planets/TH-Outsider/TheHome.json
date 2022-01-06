@@ -1,0 +1,33 @@
+{
+    "name" : "The Home",
+    "Base" :
+    {
+    "surfaceSize" : 5,
+	"hasMapMarker" : false,
+	"surfaceGravity" : 1,
+	"hasReferenceFrame" : false
+    },
+    "Singularity" :
+    {
+        "size" : 5,
+        "type" : "WhiteHole",
+        "pairedSingularity" : "The Return" 
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 125,
+        "primaryBody" : "TIMBER_MOON",
+        "isMoon" : true,
+        "inclination" : 90,
+        "trueAnomaly" : 270,
+        "showOrbitLine" : false
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "WarpCore", "Name" : "Home", "audioClip" : "OW Space Station 081420_2 AP", "SourceRadius" : 10, "identificationRadius" : 100, "onlyAudibleToScope" : false }
+		]
+	}
+
+}

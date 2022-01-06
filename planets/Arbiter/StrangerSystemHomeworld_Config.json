@@ -1,0 +1,50 @@
+{
+    "name" : "Homeworld",
+    "Base" : 
+    {
+        "surfaceSize" : 245,
+        "surfaceGravity" : 12.01,
+        "hasMapMarker" : true,
+	    "hasAmbientLight" : false
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 4000,
+        "inclination" : 60,
+        "primaryBody" : "Demiurge",
+        "isMoon" : true,
+        "isTidallyLocked" : true,
+        "longitudeOfAscendingNode" : 0.1,
+        "eccentricity" : 0,
+        "argumentOfPeriapsis": 0
+    },
+    "Atmosphere" :
+    {
+        "size" : 281,
+        "fogSize" : 280,
+        "fogTint" :
+        {
+            "r" : 87,
+            "g" : 36,
+            "b" : 34,
+            "a" : 255
+        },
+        "hasSnow" : true,
+        "fogDensity" : 0.2
+        
+    },
+    "HeightMap" :
+    {
+	    "heightMap" : "planets/Assets/HomeworldHeight.jpg",
+	    "textureMap" : "planets/Assets/HomeworldCol.jpg",
+        "minHeight" : 230,
+        "maxHeight" : 250
+    },
+    "Props" :
+    {
+        "scatter" : 
+        [
+            {"path" : "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Props_Zone1/Zone_1_Trees/OtherComponentsGroup/Lightside/Tree_RW_L", "count" : 20}
+        ]
+    }
+}

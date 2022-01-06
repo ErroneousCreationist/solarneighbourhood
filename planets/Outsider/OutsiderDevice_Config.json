@@ -1,0 +1,43 @@
+{
+    "name" : "The Device",
+    "Base" : 
+    {
+        "surfaceSize" : 300,
+        "surfaceGravity" : 16,
+        "hasMapMarker" : false,
+        "hasReferenceFrame" : false,
+	    "hasAmbientLight" : true
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 12000,
+        "inclination" : 1,
+        "primaryBody" : "The Outsider",
+        "isMoon" : false,
+        "isTidallyLocked" : true,
+        "longitudeOfAscendingNode" : 0.1,
+        "eccentricity" : 0,
+        "argumentOfPeriapsis": 104,
+        "showOrbitLine" : false
+    },
+    "HeightMap" :
+    {
+	    "heightMap" : "planets/Assets/TheDevice-Height.png",
+	    "textureMap" : "planets/Assets/TheDevice-Col.png",
+        "minHeight" : 290,
+        "maxHeight" : 310
+    },
+    "Ring" :
+    {
+        "innerRadius" : 290,
+        "outerRadius" : 400,
+        "ring" : "planets/Assets/blackholering2.png"
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Default", "Name" : "D-E-V-I-C-E", "audioFilePath" : "planets/Assets/outsiderSignal.wav", "SourceRadius" : 300, "identificationRadius" : 300, "onlyAudibleToScope" : true }
+		]
+	}
+}

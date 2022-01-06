@@ -1,0 +1,37 @@
+{
+    "name" : "Prima",
+    "Base" :
+    {
+    "surfaceSize" : 3000,
+	"hasMapMarker" : true,
+	"surfaceGravity" : 55,
+	"hasReferenceFrame" : true,
+	"gravityFallOff" : "inverseSquared"
+    },
+    "Star" :
+    {
+    "size" : 3000,
+    "tint" : 
+    {
+        "r" : 0,
+        "g" : 221,
+        "b" : 255,
+        "a" : 255
+    },
+    "solarFlareTint" : 
+    {
+        "r" : 0,
+        "g" : 221,
+        "b" : 255,
+        "a" : 255
+    }
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 0,
+        "primaryBody" : "Prima Maxima",
+        "isMoon" : false,
+        "eccentricity" : 0,
+        "inclination" : 0
+    }
+}

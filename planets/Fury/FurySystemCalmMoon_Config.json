@@ -1,0 +1,29 @@
+{
+    "name" : "Calm",
+    "Base" : 
+    {
+        "surfaceSize" : 100,
+        "surfaceGravity" : 9,
+        "hasMapMarker" : true,
+	    "hasAmbientLight" : true,
+        "hasCometTail" : true
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 1200,
+        "inclination" : 10,
+        "primaryBody" : "Serenity",
+        "isMoon" : true,
+        "isTidallyLocked" : true,
+        "longitudeOfAscendingNode" : 0.1,
+        "eccentricity" : 0,
+        "argumentOfPeriapsis": 0
+    },
+    "HeightMap" :
+    {
+	    "heightMap" : "planets/Assets/Calm.jpg",
+	    "textureMap" : "planets/Assets/Calm.jpg",
+        "minHeight" : 90,
+        "maxHeight" : 110
+    }
+}

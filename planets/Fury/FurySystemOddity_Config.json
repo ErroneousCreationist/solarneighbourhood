@@ -1,0 +1,36 @@
+{
+    "name" : "Oddity",
+    "Base" : 
+    {
+        "surfaceSize" : 270,
+        "surfaceGravity" : 13.5,
+        "hasMapMarker" : true,
+	    "hasAmbientLight" : true
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 8000,
+        "inclination" : 0,
+        "primaryBody" : "Fury",
+        "isMoon" : false,
+        "isTidallyLocked" : true,
+        "longitudeOfAscendingNode" : 0.1,
+        "eccentricity" : 0.1,
+        "trueAnomaly" : 15,
+        "argumentOfPeriapsis": 0
+    },
+    "HeightMap" :
+    {
+	    "heightMap" : "planets/Assets/Oddity-Height.jpg",
+	    "textureMap" : "planets/Assets/Oddity-Col.jpg",
+        "minHeight" : 268,
+        "maxHeight" : 279
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "WarpCore", "Name" : "Oddity", "AudioClip" : "OW_NM_WhiteHoleAmbienceL", "SourceRadius" : 200, "identificationRadius" : 100, "onlyAudibleToScope" : true }
+		]
+	}
+}

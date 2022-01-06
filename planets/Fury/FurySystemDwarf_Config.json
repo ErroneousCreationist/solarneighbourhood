@@ -1,0 +1,34 @@
+{
+    "name" : "Dwarf",
+    "Base" : 
+    {
+        "surfaceSize" : 1250,
+        "surfaceGravity" : 40,
+        "hasMapMarker" : true,
+        "lavaSize" : 1249
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 16000,
+        "inclination" : 2,
+        "primaryBody" : "Fury",
+        "isMoon" : false,
+        "eccentricity" : 0,
+        "trueAnomaly" : 216,
+        "argumentOfPeriapsis": 0
+    },
+    "Atmosphere" :
+    {
+        "size" : 1250,
+        "cloudSize" : 1250,
+        "cloud" : "planets/Assets/Dwarf.jpg",
+        "cloudCap" : "planets/Assets/cap2.png",
+        "cloudTint" : 
+        {
+            "r" : 171,
+            "g" : 56,
+            "b" : 27,
+            "a" : 255
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "name" : "The Library",
+    "Base" : 
+    {
+        "surfaceSize" : 400,
+        "surfaceGravity" : 23,
+        "hasMapMarker" : false,
+        "hasReferenceFrame" : false,
+	    "hasAmbientLight" : true
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 13000,
+        "inclination" : 1,
+        "primaryBody" : "The Outsider",
+        "isMoon" : false,
+        "isTidallyLocked" : false,
+        "longitudeOfAscendingNode" : 0.1,
+        "eccentricity" : 0,
+        "argumentOfPeriapsis": 265,
+        "showOrbitLine" : false
+    },
+    "Atmosphere" :
+    {
+        "size" : 550,
+        "fogSize" : 549,
+        "fogTint" : 
+        {
+            "r" : 0,
+            "g" : 213,
+            "b" : 255,
+            "a" : 255
+        },
+        "fogDensity" : 0.5
+    },
+    "HeightMap" :
+    {
+	    "heightMap" : "planets/Assets/TheLibrary-Height.png",
+	    "textureMap" : "planets/Assets/TheLibrary-Col.png",
+        "minHeight" : 390,
+        "maxHeight" : 400
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Default", "Name" : "L-I-B-R-A-R-Y", "audioFilePath" : "planets/Assets/outsiderSignal.wav", "SourceRadius" : 390, "identificationRadius" : 400, "onlyAudibleToScope" : true }
+		]
+	}
+}

@@ -1,0 +1,40 @@
+{
+    "name" : "Purple Gem",
+    "Base" : 
+    {
+        "surfaceSize" : 300,
+        "surfaceGravity" : 20,
+        "hasMapMarker" : true,
+	"hasAmbientLight" : true
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 6000,
+        "inclination" : 0,
+        "primaryBody" : "Orange Arbiter",
+        "isMoon" : false,
+        "isTidallyLocked" : false,
+        "longitudeOfAscendingNode" : 0.1,
+        "eccentricity" : 0.01,
+        "argumentOfPeriapsis": 0
+    },
+    "Atmosphere" : 
+    {
+        "size" : 350,
+	    "cloudTint" : 
+        {
+        "r" : 144,
+        "g" : 4,
+        "b" : 199,
+        "a" : 255
+        },
+        "cloud" : "planets/Assets/gemText.png"
+    },
+    "HeightMap" :
+    {
+	"heightMap" : "planets/Assets/GEM-HEIGHT.png",
+	"textureMap" : "planets/Assets/GEM-COL.png",
+    "minHeight" : 295,
+    "maxHeight" : 307
+    }
+}

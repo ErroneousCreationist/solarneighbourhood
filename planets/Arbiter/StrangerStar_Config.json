@@ -1,0 +1,37 @@
+{
+    "name" : "Orange Arbiter",
+    "Base" :
+    {
+    "surfaceSize" : 3500,
+	"hasMapMarker" : true,
+	"surfaceGravity" : 50,
+	"hasReferenceFrame" : true,
+	"gravityFallOff" : "inverseSquared"
+    },
+    "Star" :
+    {
+    "size" : 3500,
+    "tint" : 
+    {
+        "r" : 255,
+        "g" : 111,
+        "b" : 0,
+        "a" : 255
+    },
+    "solarFlareTint" : 
+    {
+        "r" : 255,
+        "g" : 111,
+        "b" : 0,
+        "a" : 255
+    }
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 125000,
+        "primaryBody" : "SUN",
+        "isMoon" : false,
+        "eccentricity" : 0,
+        "inclination" : 0
+    }
+}

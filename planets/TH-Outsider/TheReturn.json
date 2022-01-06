@@ -1,0 +1,34 @@
+{
+    "name" : "The Return",
+    "Base" :
+    {
+    "surfaceSize" : 10,
+	"hasMapMarker" : false,
+	"surfaceGravity" : 1,
+	"hasReferenceFrame" : false
+    },
+    "Singularity" :
+    {
+        "size" : 10,
+        "type" : "BlackHole",
+        "pairedSingularity" : "The Home"
+        
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 315,
+        "primaryBody" : "The Device",
+        "isMoon" : true,
+        "inclination" : 90,
+        "trueAnomaly" : 270,
+        "showOrbitLine" : false
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "WarpCore", "Name" : "Return", "audioClip" : "OW Space Station 081420_2 AP", "SourceRadius" : 10, "identificationRadius" : 100, "onlyAudibleToScope" : false }
+		]
+	}
+
+}

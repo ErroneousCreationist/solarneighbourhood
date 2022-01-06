@@ -1,0 +1,33 @@
+{
+    "name" : "The Exit",
+    "Base" :
+    {
+    "surfaceSize" : 10,
+	"hasMapMarker" : false,
+	"surfaceGravity" : 1,
+	"hasReferenceFrame" : false
+    },
+    "Singularity" :
+    {
+        "size" : 10,
+        "type" : "WhiteHole",
+        "pairedSingularity" : "The Anomaly"
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 315,
+        "primaryBody" : "The Device",
+        "isMoon" : true,
+        "inclination" : 90,
+        "trueAnomaly" : 90,
+        "showOrbitLine" : false
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "WarpCore", "Name" : "Exit", "audioClip" : "OW Space Station 081420_2 AP", "SourceRadius" : 10, "identificationRadius" : 100, "onlyAudibleToScope" : false }
+		]
+	}
+
+}

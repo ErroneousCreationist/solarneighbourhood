@@ -1,0 +1,30 @@
+{
+    "name" : "Calamity",
+    "Base" : 
+    {
+        "surfaceSize" : 500,
+        "surfaceGravity" : 50,
+        "hasMapMarker" : true
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 13000,
+        "inclination" : 0,
+        "primaryBody" : "Fury",
+        "isMoon" : false,
+        "eccentricity" : 0,
+        "trueAnomaly" : 276,
+        "argumentOfPeriapsis": 0
+    },
+    "Singularity" :
+    {
+        "size" : 500,
+        "type" : "BlackHole"
+    },
+    "Ring" : 
+    {
+        "innerRadius" : 500,
+        "outerRadius" : 900,
+        "texture" : "planets/Assets/blackholering.png"
+    }
+}

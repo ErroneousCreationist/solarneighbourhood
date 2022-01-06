@@ -1,0 +1,41 @@
+{
+    "name" : "Demiurge",
+    "Base" : 
+    {
+        "surfaceSize" : 1000,
+        "surfaceGravity" : 36,
+        "hasMapMarker" : true,
+	    "hasAmbientLight" : true
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 9000,
+        "inclination" : 0,
+        "trueAnomaly" : 181,
+        "primaryBody" : "Orange Arbiter",
+        "isMoon" : false,
+        "isTidallyLocked" : false,
+        "longitudeOfAscendingNode" : 0.1,
+        "eccentricity" : 0,
+        "argumentOfPeriapsis": 0
+    },
+    "Atmosphere" : 
+    {
+        "size" : 1000,
+	    "cloudTint" : 
+        {
+        "r" : 28,
+        "g" : 156,
+        "b" : 126,
+        "a" : 255
+        },
+        "cloud" : "planets/Assets/images.jpg"
+    },
+    "Ring" : 
+    {
+        "innerRadius" : 1250,
+        "outerRadius" : 1700,
+        "inclination" : 0,
+        "texture" : "planets/Assets/ring.png"
+    }
+}
