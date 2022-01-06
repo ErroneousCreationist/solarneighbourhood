@@ -3,7 +3,7 @@
     "Base" : 
     {
         "surfaceSize" : 400,
-        "surfaceGravity" : 23,
+        "surfaceGravity" : 13,
         "hasMapMarker" : false,
         "hasReferenceFrame" : false,
 	    "hasAmbientLight" : true

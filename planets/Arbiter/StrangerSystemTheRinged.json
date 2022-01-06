@@ -29,13 +29,14 @@
         "b" : 126,
         "a" : 255
         },
-        "cloud" : "planets/Assets/images.jpg"
+        "cloud" : "planets/Assets/images.jpg",
+        "cloudCap" : "planets/Assets/cap2.png"
     },
     "Ring" : 
     {
         "innerRadius" : 1250,
         "outerRadius" : 1700,
         "inclination" : 0,
-        "texture" : "planets/Assets/ring.png"
+        "texture" : "planets/Assets/ring2.png"
     }
 }

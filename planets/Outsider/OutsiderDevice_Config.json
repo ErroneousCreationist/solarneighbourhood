@@ -3,7 +3,7 @@
     "Base" : 
     {
         "surfaceSize" : 300,
-        "surfaceGravity" : 16,
+        "surfaceGravity" : 13,
         "hasMapMarker" : false,
         "hasReferenceFrame" : false,
 	    "hasAmbientLight" : true
@@ -26,12 +26,6 @@
 	    "textureMap" : "planets/Assets/TheDevice-Col.png",
         "minHeight" : 290,
         "maxHeight" : 310
-    },
-    "Ring" :
-    {
-        "innerRadius" : 290,
-        "outerRadius" : 400,
-        "ring" : "planets/Assets/blackholering2.png"
     },
     "Signal" : 
 	{

@@ -3,7 +3,7 @@
     "Base" : 
     {
         "surfaceSize" : 450,
-        "surfaceGravity" : 25,
+        "surfaceGravity" : 12,
         "hasMapMarker" : false,
         "hasReferenceFrame" : false,
 	    "hasAmbientLight" : true
@@ -25,7 +25,6 @@
         "size" : 550,
         "cloudSize" : 550,
         "cloud" : "planets/Assets/The-City.png",
-        "cloudCap" : "planets/Assets/cap1.png",
         "cloudTint" : 
         {
             "r" : 0,

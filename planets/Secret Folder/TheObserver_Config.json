@@ -1,0 +1,50 @@
+{
+    "name" : "The Observer",
+    "Base" : 
+    {
+        "surfaceSize" : 250,
+        "surfaceGravity" : 15,
+        "hasMapMarker" : false,
+        "hasReferenceFrame" : false,
+	    "hasAmbientLight" : false
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 50000,
+        "inclination" : 90,
+        "primaryBody" : "SUN",
+        "isTidallyLocked" : true,
+        "longitudeOfAscendingNode" : 0.1,
+        "eccentricity" : 0,
+        "trueAnomaly" : 270,
+        "showOrbitLine" : false,
+        "isStatic" : true
+    },
+    "Atmosphere" :
+    {
+        "size" : 350,
+        "hasOxygen" : true,
+        "hasRain" : true
+    },
+    "HeightMap" :
+    {
+	    "heightMap" : "planets/Assets/TheObserver-Height.png",
+	    "textureMap" : "planets/Assets/TheObserver-Col.png",
+        "minHeight" : 475,
+        "maxHeight" : 500
+    },
+    "Singularity" :
+    {
+        "type" : "BlackHole",
+        "size" : 5,
+        "position" : {"x": 15.47006, "y": -474.3477, "z": 17.87887}
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Traveler", "Name" : "UNKNOWN", "audioFilePath" : "planets/Assets/observerSignal.wav", "SourceRadius" : 500, "identificationRadius" : 510},
+            { "Frequency" : "Statue", "Name" : "COME INSIDE", "audioFilePath" : "planets/Assets/Degenerate.wav", "SourceRadius" : 5, "identificationRadius" : 10, "position" : {"x": 15.47006, "y": -474.3477, "z": 17.87887} }
+		]
+	}
+}

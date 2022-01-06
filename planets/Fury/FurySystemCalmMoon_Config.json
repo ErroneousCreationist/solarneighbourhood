@@ -5,8 +5,7 @@
         "surfaceSize" : 100,
         "surfaceGravity" : 9,
         "hasMapMarker" : true,
-	    "hasAmbientLight" : true,
-        "hasCometTail" : true
+	    "hasAmbientLight" : true
     },
     "Orbit" : 
     {

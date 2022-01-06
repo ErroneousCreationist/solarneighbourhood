@@ -4,9 +4,16 @@
     {
     "surfaceSize" : 3250,
 	"hasMapMarker" : false,
-	"surfaceGravity" : 55,
+	"surfaceGravity" : 40,
 	"hasReferenceFrame" : false,
 	"gravityFallOff" : "inverseSquared"
+    },
+    "HeightMap" :
+    {
+        "heightMap" : "planets/Assets/OutsiderHeight.png",
+        "textureMap" : "planets/Assets/OutsiderHeight.png",
+        "minHeight" : 3000,
+        "maxHeight" : 3500
     },
     "Star" :
     {

@@ -4,8 +4,7 @@
     {
         "surfaceSize" : 1250,
         "surfaceGravity" : 40,
-        "hasMapMarker" : true,
-        "lavaSize" : 1249
+        "hasMapMarker" : true
     },
     "Orbit" : 
     {
@@ -16,6 +15,24 @@
         "eccentricity" : 0,
         "trueAnomaly" : 216,
         "argumentOfPeriapsis": 0
+    },
+    "Star" : 
+    {
+        "size" : 1240,
+    "tint" : 
+    {
+        "r" : 209,
+        "g" : 0,
+        "b" : 0,
+        "a" : 255
+    },
+    "solarFlareTint" : 
+    {
+        "r" : 209,
+        "g" : 0,
+        "b" : 0,
+        "a" : 255
+    }
     },
     "Atmosphere" :
     {
