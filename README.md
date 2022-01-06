@@ -10,3 +10,4 @@ Mobius Digital for making this outstanding game!
 
 
 Sound for a certain signal came from here: https://soundbible.com/2213-Alien-Spaceship-UFO.html
+Sound for another signal came from here: https://soundbible.com/1869-Phone-Ringing-8x.html
