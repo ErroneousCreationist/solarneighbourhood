@@ -9,7 +9,7 @@
     },
     "Orbit" : 
     {
-        "semiMajorAxis" : 4000,
+        "semiMajorAxis" : 3500,
         "inclination" : 60,
         "primaryBody" : "Demiurge",
         "isMoon" : true,

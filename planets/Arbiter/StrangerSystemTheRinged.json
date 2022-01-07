@@ -9,7 +9,7 @@
     },
     "Orbit" : 
     {
-        "semiMajorAxis" : 9000,
+        "semiMajorAxis" : 12000,
         "inclination" : 0,
         "trueAnomaly" : 181,
         "primaryBody" : "Orange Arbiter",

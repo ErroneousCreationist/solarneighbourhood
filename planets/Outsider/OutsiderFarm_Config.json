@@ -1,0 +1,42 @@
+{
+    "name" : "The Farm",
+    "Base" : 
+    {
+        "surfaceSize" : 300,
+        "surfaceGravity" : 30,
+        "hasMapMarker" : false,
+        "hasReferenceFrame" : false,
+	    "hasAmbientLight" : true
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 15000,
+        "inclination" : 1,
+        "primaryBody" : "The Outsider",
+        "isMoon" : false,
+        "isTidallyLocked" : false,
+        "longitudeOfAscendingNode" : 0.1,
+        "eccentricity" : 0,
+        "argumentOfPeriapsis": 274,
+        "showOrbitLine" : false
+    },
+    "Singularity" :
+    {
+        "size" : 275,
+        "Type" : "WhiteHole"
+    },
+    "HeightMap" :
+    {
+	    "heightMap" : "planets/Assets/TheFarm_Height.png",
+	    "textureMap" : "planets/Assets/TheFarm_Height.png",
+        "minHeight" : 200,
+        "maxHeight" : 350
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Default", "Name" : "F-A-R-M", "audioFilePath" : "planets/Assets/outsiderSignal.wav", "SourceRadius" : 300, "identificationRadius" : 300, "onlyAudibleToScope" : true }
+		]
+	}
+}
