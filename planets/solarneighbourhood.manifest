@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2462150148
+CRC: 1830681961
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4fc0e4ecb64d906608f2ab51bde4fa96
+    Hash: 872b7f6cb836933af5fa3ac13a7f180e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: f521088a992785cd50d36f7860df2548
+    Hash: c086be1095d538974e43d58b8ae8c060
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -25,15 +25,24 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
 Assets:
-- Assets/OUTERWILDSASSETBUNDLES/wood.jpeg
-- Assets/OUTERWILDSASSETBUNDLES/oddityscatter.blend
-- Assets/OUTERWILDSASSETBUNDLES/ripoffsatellite.blend
-- Assets/OUTERWILDSASSETBUNDLES/Wood.mat
-- Assets/OUTERWILDSASSETBUNDLES/StrangerSatellite.prefab
-- Assets/OUTERWILDSASSETBUNDLES/OddityScatter.mat
-- Assets/OUTERWILDSASSETBUNDLES/ODDITYSCATTER.prefab
-- Assets/OUTERWILDSASSETBUNDLES/Glow.mat
+- Assets/assetbundles/wood.jpeg
+- Assets/assetbundles/silver-brushed-metal-texture.jpg
+- Assets/assetbundles/HearthWood.mat
+- Assets/assetbundles/Stars.mat
+- Assets/assetbundles/OwelkSatellite.prefab
+- Assets/assetbundles/Metal.mat
+- Assets/assetbundles/Wood.mat
+- Assets/assetbundles/DysonSphere.prefab
+- Assets/assetbundles/OddityScatter.mat
+- Assets/assetbundles/ripoffsatellite.fbx
+- Assets/assetbundles/Glow.mat
+- Assets/assetbundles/images.jpg
+- Assets/assetbundles/DysonSphere.fbx
+- Assets/assetbundles/HearthProbe.fbx
+- Assets/assetbundles/HearthProbe.prefab
 Dependencies: []

@@ -10,10 +10,10 @@
     },
     "HeightMap" :
     {
-        "heightMap" : "planets/Assets/OutsiderHeight.png",
-        "textureMap" : "planets/Assets/OutsiderHeight.png",
+	    "heightMap" : "planets/Assets/OutsiderHeight.png",
+	    "textureMap" : "planets/Assets/OutsiderHeight.png",
         "minHeight" : 3000,
-        "maxHeight" : 3500
+        "maxHeight" : 3400
     },
     "Star" :
     {

@@ -1,0 +1,34 @@
+{
+    "name" : "Owelk Satellite",
+    "Base" : 
+    {
+        "surfaceSize" : 10,
+        "hasMapMarker" : false,
+        "hasReferenceFrame" : true,
+	    "hasAmbientLight" : false
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 3000,
+        "inclination" : 0,
+        "primaryBody" : "Demiurge",
+        "isTidallyLocked" : true,
+        "eccentricity" : 0,
+        "trueAnomaly" : 270,
+        "showOrbitLine" : true
+    },
+    "Props" : 
+    {
+        "details" :
+        [
+            {"assetBundle" : "planets/solarneighbourhood", "path" : "Assets/assetbundles/OwelkSatellite.prefab", "size" : 40}
+        ]
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Radio", "Name" : "Owelk Satellite", "audioClip" : "Outer Wilds Party House v8 050321_3 AP traveler", "SourceRadius" : 5, "identificationRadius" : 10}		
+        ]
+	}
+}

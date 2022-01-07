@@ -1,0 +1,34 @@
+{
+    "name" : "Fury Probe",
+    "Base" : 
+    {
+        "surfaceSize" : 10,
+        "hasMapMarker" : false,
+        "hasReferenceFrame" : true,
+	    "hasAmbientLight" : false
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 20000,
+        "inclination" : 0,
+        "primaryBody" : "Fury",
+        "isTidallyLocked" : true,
+        "eccentricity" : 0,
+        "trueAnomaly" : 348,
+        "showOrbitLine" : true
+    },
+    "Props" : 
+    {
+        "details" :
+        [
+            {"assetBundle" : "planets/solarneighbourhood", "path" : "Assets/assetbundles/HearthProbe.prefab", "size" : 40}
+        ]
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Radio", "Name" : "Fury Probe", "audioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 5, "identificationRadius" : 10}		
+        ]
+	}
+}
