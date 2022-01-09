@@ -21,7 +21,7 @@
     {
         "details" :
         [
-            {"assetBundle" : "planets/solarneighbourhood", "path" : "Assets/assetbundles/HearthProbe.prefab", "size" : 40}
+            {"assetBundle" : "planets/solarneighbourhood", "path" : "Assets/assetbundles/HearthProbe.prefab", "scale" : 2.5}
         ]
     },
     "Signal" : 

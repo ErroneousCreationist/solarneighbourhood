@@ -1,0 +1,46 @@
+{
+    "name" : "The Monitor",
+    "Base" : 
+    {
+        "surfaceSize" : 100,
+        "surfaceGravity" : 9,
+        "hasMapMarker" : true,
+        "hasReferenceFrame" : true,
+	    "hasAmbientLight" : false,
+        "hasCometTail" : true
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 10000,
+        "inclination" : 90,
+        "primaryBody" : "SUN",
+        "isTidallyLocked" : true,
+        "longitudeOfAscendingNode" : 0.1,
+        "eccentricity" : 0.3,
+        "showOrbitLine" : true,
+        "isStatic" : false
+    },
+    "Atmosphere" :
+    {
+        "size" : 150,
+        "hasOxygen" : true,
+        "hasRain" : true,
+        "fogSize" : 150,
+        "fogTint" : {"r" : 175, "g" : 201, "b" : 198, "a" : 255},
+        "fogDensity" : 0.2
+    },
+    "Props" : 
+    {
+        "details" :
+        [
+            {"assetBundle" : "planets/solarneighbourhood", "path" : "Assets/assetbundles/Comet.prefab", "scale" : 110}
+        ]
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Default", "Name" : "M-O-N-I-T-O-R", "audioFilePath" : "planets/Assets/outsiderSignal.wav", "SourceRadius" : 100, "identificationRadius" : 110}		
+        ]
+	}
+}

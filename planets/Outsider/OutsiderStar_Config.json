@@ -8,12 +8,12 @@
 	"hasReferenceFrame" : false,
 	"gravityFallOff" : "inverseSquared"
     },
-    "HeightMap" :
+    "Props" : 
     {
-	    "heightMap" : "planets/Assets/OutsiderHeight.png",
-	    "textureMap" : "planets/Assets/OutsiderHeight.png",
-        "minHeight" : 3000,
-        "maxHeight" : 3400
+        "details" :
+        [
+            {"assetBundle" : "planets/solarneighbourhood", "path" : "Assets/assetbundles/DysonSphere.prefab", "scale" : 3400}
+        ]
     },
     "Star" :
     {

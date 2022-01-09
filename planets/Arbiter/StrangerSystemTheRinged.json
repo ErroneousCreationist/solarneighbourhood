@@ -35,7 +35,7 @@
     "Ring" : 
     {
         "innerRadius" : 1250,
-        "outerRadius" : 1700,
+        "outerRadius" : 2000,
         "inclination" : 0,
         "texture" : "planets/Assets/ring2.png"
     }

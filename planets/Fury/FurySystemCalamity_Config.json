@@ -25,6 +25,7 @@
     {
         "innerRadius" : 500,
         "outerRadius" : 900,
-        "texture" : "planets/Assets/blackholering.png"
+        "texture" : "planets/Assets/Accrecion disk.png",
+        "rotationSpeed" : 5
     }
 }

@@ -21,7 +21,7 @@
     {
         "details" :
         [
-            {"assetBundle" : "planets/solarneighbourhood", "path" : "Assets/assetbundles/OwelkSatellite.prefab", "size" : 40}
+            {"assetBundle" : "planets/solarneighbourhood", "path" : "Assets/assetbundles/OwelkSatellite.prefab", "scale" : 2.5}
         ]
     },
     "Signal" : 

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1830681961
+CRC: 726253407
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 872b7f6cb836933af5fa3ac13a7f180e
+    Hash: 414f928539fcecd85ae8853511a96802
   TypeTreeHash:
     serializedVersion: 2
     Hash: c086be1095d538974e43d58b8ae8c060
@@ -33,14 +33,19 @@ Assets:
 - Assets/assetbundles/wood.jpeg
 - Assets/assetbundles/silver-brushed-metal-texture.jpg
 - Assets/assetbundles/HearthWood.mat
+- Assets/assetbundles/Rock.mat
 - Assets/assetbundles/Stars.mat
 - Assets/assetbundles/OwelkSatellite.prefab
 - Assets/assetbundles/Metal.mat
+- Assets/assetbundles/Comet.prefab
 - Assets/assetbundles/Wood.mat
 - Assets/assetbundles/DysonSphere.prefab
 - Assets/assetbundles/OddityScatter.mat
+- Assets/assetbundles/CometTex.png
 - Assets/assetbundles/ripoffsatellite.fbx
+- Assets/assetbundles/COMET.fbx
 - Assets/assetbundles/Glow.mat
+- Assets/assetbundles/AlienTech.fbx
 - Assets/assetbundles/images.jpg
 - Assets/assetbundles/DysonSphere.fbx
 - Assets/assetbundles/HearthProbe.fbx
