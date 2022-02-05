@@ -5,11 +5,16 @@ A planet pack depicting the solar neighbourhood seen in Echoes Of The Eye! Inclu
 1.0.0 release: added a wholesome encounter on a certain city, check your signalscope on Traveler frequency!
 
 Special thanks to:
+
 Jammer - for jammer moments and inspiring me to make this
+
 Xen - for making New Horizons and helping a lot
+
 The OW Modding Community for making these tools and everything
+
 Mobius Digital for making this outstanding game!
 
 
 Sound for a certain signal came from here: https://soundbible.com/2213-Alien-Spaceship-UFO.html
+
 Sound for another signal came from here: https://soundbible.com/1869-Phone-Ringing-8x.html
