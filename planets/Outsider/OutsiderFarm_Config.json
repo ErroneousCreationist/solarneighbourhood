@@ -22,7 +22,7 @@
     },
     "Singularity" :
     {
-        "size" : 225,
+        "size" : 201,
         "Type" : "WhiteHole"
     },
     "HeightMap" :
@@ -36,7 +36,7 @@
 	{
 		"Signals" : 
 		[
-			{ "Frequency" : "Default", "Name" : "F-A-R-M", "audioFilePath" : "planets/Assets/outsiderSignal.wav", "SourceRadius" : 300, "identificationRadius" : 300, "onlyAudibleToScope" : true }
+			{ "Frequency" : "Default", "Name" : "F-A-R-M", "audioFilePath" : "planets/Assets/outsiderSignal.wav", "SourceRadius" : 300, "identificationRadius" : 300}
 		]
 	}
 }

@@ -35,7 +35,7 @@
     },
     "Orbit" : 
     {
-        "semiMajorAxis" : 450000,
+        "semiMajorAxis" : 700000,
         "primaryBody" : "SUN",
         "isMoon" : false,
         "eccentricity" : 0,
@@ -48,7 +48,7 @@
 	{
 		"Signals" : 
 		[
-			{ "Frequency" : "Default", "Name" : "O-U-T-S-I-D-E-R", "audioFilePath" : "planets/Assets/outsiderSignal.wav", "SourceRadius" : 3250, "identificationRadius" : 4000, "onlyAudibleToScope" : true }
+			{ "Frequency" : "Default", "Name" : "O-U-T-S-I-D-E-R", "audioFilePath" : "planets/Assets/outsiderSignal.wav", "SourceRadius" : 3250, "identificationRadius" : 4000}
 		]
 	}
 }

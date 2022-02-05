@@ -5,8 +5,11 @@
         "surfaceSize" : 345,
         "surfaceGravity" : 15,
         "hasMapMarker" : true,
-	    "hasAmbientLight" : true,
-        "waterSize" : 335
+	    "hasAmbientLight" : true
+    },
+    "Water" :
+    {
+        "size" : 335
     },
     "Orbit" : 
     {
@@ -39,7 +42,7 @@
             "b" : 139,
             "a" : 255
         },
-        "fogDensity" : 0.8
+        "fogDensity" : 0.9
     },
     "Props" :
     {

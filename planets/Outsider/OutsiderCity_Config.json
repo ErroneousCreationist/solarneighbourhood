@@ -23,15 +23,6 @@
     "Atmosphere" :
     {
         "size" : 550,
-        "cloudSize" : 550,
-        "cloud" : "planets/Assets/The-City.png",
-        "cloudTint" : 
-        {
-            "r" : 0,
-            "g" : 255,
-            "b" : 242,
-            "a" : 255
-        },
         "fogSize" : 549,
         "fogTint" : 
         {
@@ -40,7 +31,7 @@
             "b" : 128,
             "a" : 255
         },
-        "fogDensity" : 0.1
+        "fogDensity" : 1.5
     },
     "HeightMap" :
     {
@@ -53,7 +44,29 @@
 	{
 		"Signals" : 
 		[
-			{ "Frequency" : "Default", "Name" : "C-I-T-Y", "audioFilePath" : "planets/Assets/outsiderSignal.wav", "SourceRadius" : 450, "identificationRadius" : 500, "onlyAudibleToScope" : true }
+			{ "Frequency" : "Default", "Name" : "C-I-T-Y", "audioFilePath" : "planets/Assets/outsiderSignal.wav", "SourceRadius" : 450, "identificationRadius" : 500},
+            { "Frequency" : "Traveler", "Name" : "Threen", "audioFilePath" : "planets/Assets/Banjo.wav", "SourceRadius" : 2, "identificationRadius" : 5, "position" : {"x": 185.1865, "y": 398.9609, "z": 8.133408}}
 		]
-	}
+	},
+    "Props" :
+    {
+        "details" :
+        [
+            {
+                "assetBundle" : "planets/solarneighbourhood", 
+                "path" : "Assets/assetbundles/Outsider.prefab", 
+                "position" : {"x": 185.1865, "y": 398.9609, "z": 8.133408},
+                "scale" : 1.1, 
+                "alignToNormal" : true
+            }
+        ],
+        "Dialogue" :
+        [
+            {
+                "position" : {"x": 185.1865, "y": 398.9609, "z": 8.133408},
+                "radius" : 2,
+                "xmlFile" : "planets/Outsider/Outsider1.xml"
+            }
+        ]
+    }
 }

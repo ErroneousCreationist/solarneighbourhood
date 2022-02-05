@@ -15,7 +15,7 @@
     },
     "Orbit" : 
     {
-        "semiMajorAxis" : 315,
+        "semiMajorAxis" : 325,
         "primaryBody" : "The Device",
         "isMoon" : true,
         "inclination" : 90,

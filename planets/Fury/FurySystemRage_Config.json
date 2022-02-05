@@ -5,8 +5,11 @@
         "surfaceSize" : 300,
         "surfaceGravity" : 15,
         "hasMapMarker" : true,
-	    "hasAmbientLight" : true,
-        "lavaSize" : 290
+	    "hasAmbientLight" : true
+    },
+    "Lava" : 
+    {
+        "size" : 290
     },
     "Orbit" : 
     {

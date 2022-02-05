@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 726253407
+CRC: 3693650499
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 414f928539fcecd85ae8853511a96802
+    Hash: 7b8590dbc0fd732cd0bd2850ac8824b1
   TypeTreeHash:
     serializedVersion: 2
-    Hash: c086be1095d538974e43d58b8ae8c060
+    Hash: 0d1078b68c6151b614f7a70014299bb8
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -27,11 +27,15 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 64
   Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
 Assets:
+- Assets/assetbundles/BrightestGlow.mat
 - Assets/assetbundles/wood.jpeg
 - Assets/assetbundles/silver-brushed-metal-texture.jpg
+- Assets/assetbundles/Outsider.fbx
 - Assets/assetbundles/HearthWood.mat
 - Assets/assetbundles/Rock.mat
 - Assets/assetbundles/Stars.mat
@@ -44,10 +48,11 @@ Assets:
 - Assets/assetbundles/CometTex.png
 - Assets/assetbundles/ripoffsatellite.fbx
 - Assets/assetbundles/COMET.fbx
+- Assets/assetbundles/Outsider.prefab
 - Assets/assetbundles/Glow.mat
 - Assets/assetbundles/AlienTech.fbx
-- Assets/assetbundles/images.jpg
 - Assets/assetbundles/DysonSphere.fbx
 - Assets/assetbundles/HearthProbe.fbx
 - Assets/assetbundles/HearthProbe.prefab
-Dependencies: []
+Dependencies:
+- /Users/Samuel/Downloads/OuterWildsAssetbundles/Assets/StreamingAssets/astroneer

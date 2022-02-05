@@ -1,0 +1,143 @@
+<DialogueTree>
+    <NameField>ONETHREENINESEVEN</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>LIFEFORM. I AM SPEAKING YOUR LANGUAGE. CONFIRM.</Page>
+        </Dialogue>
+        
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Yes.</Text>
+                <DialogueTarget>1</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Who are you?</Text>
+                <DialogueTarget>2</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Where am I?</Text>
+                <DialogueTarget>3</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Whats going on?</Text>
+                <DialogueTarget>Explane</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Farewell</Text>
+                <DialogueTarget>End</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page>GOOD. WE HAVE BEEN HERE FOR A LONG TIME.</Page>
+            <Page>WE HAVE ENVIED YOU EVER SINCE WE GOT STUCK IN HERE.</Page>
+            <Page>IT IS AN IMMENSE PLEASURE TO MEET YOU. I HOPE WE CAN BE FRIENDS.</Page>
+        </Dialogue>
+        
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Can I ask you something?</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+
+    <DialogueNode>
+        <Name>2</Name>
+        <Dialogue>
+            <Page>I AM OF NO NAME BUT ONETHREENINESEVEN. </Page>
+            <Page>YOU CAN REFER TO ME AS Threen</Page>
+        </Dialogue>
+
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Can I ask you something?</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>3</Name>
+        <Dialogue>
+            <Page>YOU ARE STANDING ON OUR BIGGEST FAILURE.</Page>
+            <Page>WE SHOULD NEVER HAVE BUILT THIS.</Page>
+        </Dialogue>
+
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Can I ask you something?</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Explane</Name>
+        <Dialogue>
+            <Page>WE ARE NOT FROM HERE. OUR HOME WAS A PLACE DEVOID OF LIFE BEYOND OURSELVES.</Page>
+            <Page>WE WERE DETERMINED TO MAKE SURE IT NEVER BECAME EMPTY.</Page>
+            <Page>WHEN THE END CAME ALONG WE MANAGED TO PASS ON AND GET TO HERE.</Page>
+            <Page>THIS PLACE IS TEEMING WITH LIFE. HOWEVER WE HAD ALREADY BECOME ONE WITH OUR MACHINES.</Page>
+            <Page>WE COULDN'T GO AND SEE EVERYTHING WITH OUR OWN SENSES.</Page>
+            <Page>TRAPPED BY OURSELVES. FOREVER CURSED TO NOT CEASE.</Page>
+            <Page>BEING IMMORTAL SOUNDS LIKE A BLESSING. IT IS VERY MUCH NOT.</Page>
+        </Dialogue>
+
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>I'm so sorry</Text>
+                <DialogueTarget>End</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>I know how it feels, I'm in a time loop</Text>
+                <DialogueTarget>Loop</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Loop</Name>
+        <Dialogue>
+            <Page>IT SEEMS WE ARE ALIKE.</Page>
+            <Page>I HOPE WE CAN BE FRIENDS.</Page>
+        </Dialogue>
+
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>*hug*</Text>
+                <DialogueTarget>Hug</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Of course!</Text>
+                <DialogueTarget>End</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Hug</Name>
+        <Dialogue>
+            <Page>I AM NOT FAMILIAR WITH THIS EXPRESSION.</Page>
+            <Page>BUT I ENJOY IT GREATLY. FAREWELL TRAVELLER.</Page>
+        </Dialogue>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>End</Name>
+        <Dialogue>
+            <Page>IT HAS BEEN A PLEASURE MEETING YOU. FAREWELL TRAVELLER.</Page>
+        </Dialogue>
+    </DialogueNode>
+
+</DialogueTree>

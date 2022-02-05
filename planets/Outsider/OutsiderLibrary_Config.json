@@ -44,7 +44,7 @@
 	{
 		"Signals" : 
 		[
-			{ "Frequency" : "Default", "Name" : "L-I-B-R-A-R-Y", "audioFilePath" : "planets/Assets/outsiderSignal.wav", "SourceRadius" : 390, "identificationRadius" : 400, "onlyAudibleToScope" : true }
+			{ "Frequency" : "Default", "Name" : "L-I-B-R-A-R-Y", "audioFilePath" : "planets/Assets/outsiderSignal.wav", "SourceRadius" : 390, "identificationRadius" : 400}
 		]
 	}
 }

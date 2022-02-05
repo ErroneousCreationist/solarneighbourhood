@@ -31,7 +31,7 @@
 	{
 		"Signals" : 
 		[
-			{ "Frequency" : "Default", "Name" : "D-E-V-I-C-E", "audioFilePath" : "planets/Assets/outsiderSignal.wav", "SourceRadius" : 300, "identificationRadius" : 300, "onlyAudibleToScope" : true }
+			{ "Frequency" : "Default", "Name" : "D-E-V-I-C-E", "audioFilePath" : "planets/Assets/outsiderSignal.wav", "SourceRadius" : 300, "identificationRadius" : 300}
 		]
 	}
 }

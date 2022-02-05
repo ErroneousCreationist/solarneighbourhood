@@ -10,7 +10,7 @@
     },
     "Orbit" : 
     {
-        "semiMajorAxis" : 50000,
+        "semiMajorAxis" : 35000,
         "inclination" : 90,
         "primaryBody" : "SUN",
         "isTidallyLocked" : true,
